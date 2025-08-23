@@ -21,6 +21,8 @@ export default function Home() {
 
       <h1 className="text-5xl text-gray-500">{counter}</h1>
 
+      <span>Cambio desde GIT</span>
+
       <div className="flex gap-2">
         <button className="p-2 bg-blue-700 text-white rounded-sm cursor-pointer" onClick={addCounter}> 
           Sumar
